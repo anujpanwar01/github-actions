@@ -2,7 +2,7 @@ name: first-actions-flow
 on: workflow_dispatch
 jobs: 
   first-job: 
-    runs-on: macOS Monterey 12
+    runs-on: macos-12
     steps:
       - name: Print Greeting
         run: echo "Hello Anuj Panwar
